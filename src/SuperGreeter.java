@@ -6,7 +6,7 @@ public class SuperGreeter {
         SuperGreeter SG = new SuperGreeter();
         SG.start();
         SG.greet();
-        SG.askAboutAge();
+        SG.stupidMethod();
     }
 
     public void start() {
@@ -19,9 +19,7 @@ public class SuperGreeter {
         System.out.println("Hej med dig, " + navn);
     }
 
-    public void askAboutAge() {
-        System.out.print("Indtast din alder: ");
-        int alder = sc.nextInt();
-        System.out.println("Du er " + alder + " år gammel.");
+    public void stupidMethod() {
+        System.out.println("This method is stupid");
     }
 }
